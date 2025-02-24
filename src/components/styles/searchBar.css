@@ -1,0 +1,23 @@
+#search-bar{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+#search-bar label{
+    background-color: gray;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search-input{
+    width: 100px;
+    padding: .5rem;
+}
+
+.stock-box{
+    margin-right: .5rem;
+    
+}
