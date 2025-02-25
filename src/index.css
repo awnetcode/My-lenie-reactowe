@@ -13,14 +13,17 @@ body{
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   color: white;
+  background-color: black;
 }
 
 #root{
   width: 100%;
   height: 100%;
+  background-color: black;
   background-image: url('./assets/Images/shopping-carts.jpg');
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: .8;
 }

@@ -8,8 +8,10 @@ const FilterableProductTable = () =>{
 
     return(
         <>
+        <div id="product-table">
         <SearchBar/>
         <ProductTable/>
+        </div>
         </>
     )
 }

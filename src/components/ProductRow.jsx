@@ -1,11 +1,21 @@
 import './styles/productRow.css';
 
-// eslint-disable-next-line react/prop-types
-const ProductRow = ({name}) =>{
+import products from '../assets/data.json';
+
+
+const ProductRow = () =>{
+    
+    //console.log(products.products);
+     
 
     return(
         <>
-        <p>{name}</p>
+        <ul>
+            {products.products.map((item, index) =>{
+                    <li key={index}>lol</li>
+                })
+}
+        </ul>
         </>
     )
 }
