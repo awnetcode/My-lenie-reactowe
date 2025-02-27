@@ -2,3 +2,8 @@
     list-style-type: none;
     padding: 1rem;
 }
+
+.product-item{
+    display: flex;
+    justify-content: space-between;
+}

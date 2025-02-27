@@ -12,8 +12,8 @@ const ProductRow = ({productsArray}) =>{
         <ul className='product-list'>
         {productsArray.map((product, index) => (
                 <li key={index} className='product-item'>
-                    <span>{product.name}</span>
-                    <span>{product.price}</span>
+                    <span>{product.name} </span>
+                    <span>price: {product.price} USD</span>
                 </li>
             ))}
         </ul>

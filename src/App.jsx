@@ -6,9 +6,10 @@ import FilterableProductTable from './components/FilterableProductTable'
 function App() {
 
   return (
-    <>
-<FilterableProductTable/>
-    </>
+    <div id="container">
+       <FilterableProductTable/>
+    </div>
+
   )
 }
 

@@ -22,8 +22,5 @@ body{
   background-color: black;
   background-image: url('./assets/Images/shopping-carts.jpg');
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   opacity: .8;
 }
